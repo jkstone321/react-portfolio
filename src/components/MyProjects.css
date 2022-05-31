@@ -1,0 +1,47 @@
+#my-project-container {
+    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid black;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: grey;
+}
+
+#my-header-container {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+#overlay-container {
+    position: absolute;
+    
+    display: flex;
+    opacity: 0.5;
+    justify-content: space-around;
+}
+
+
+
+#projects-header{
+    text-align: center;
+    padding: 2rem;
+    background-color: grey;
+}
+
+#project-box {
+    padding: 3rem;
+    border: 5px solid black;
+    border-radius: 3%;
+}
+#box-overlay {
+    z-index: 1;
+    position: relative;
+    padding: 3rem;
+    border: 5px solid black;
+    border-radius: 3%;
+    background-color: black;
+    transition: opacity 200ms ease,
+}
