@@ -8,13 +8,23 @@ import { Container } from "@mui/system";
 
 function AboutMe() {
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.down("sm"));
+  const matches = useMediaQuery(theme.breakpoints.down("md"));
+  let width = "40rem";
+  let direction = "row";
+  let justify = "space-around";
+  {
+    matches ? (width = "auto") : (width = "40rem");
+  }
   return (
     <>
       <Container id="about-me-container">
-        <Grid container justifyContent="space-around">
-          <Grid item>
-            <p style={{ width: "40rem" }}>
+        <Grid
+          container
+          justifyContent={matches ? "center" : "space-around"}
+          direction="row"
+        >
+          <Grid item className="col-6">
+            <p style={{ width }}>
               <h2>About Me</h2>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -25,7 +35,7 @@ function AboutMe() {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </Grid>
-          <Grid item>
+          <Grid item className="col-6">
             <img src={Picture} alt="Me" id="image-of-me" />
           </Grid>
         </Grid>
