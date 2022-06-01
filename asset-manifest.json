@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.35ed8019.css",
-    "main.js": "/react-portfolio/static/js/main.b1725a8b.js",
+    "main.css": "/react-portfolio/static/css/main.1239585d.css",
+    "main.js": "/react-portfolio/static/js/main.ea77459c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/background1.jpg": "/react-portfolio/static/media/background1.376c55079095764cd86f.jpg",
+    "static/media/planted.png": "/react-portfolio/static/media/planted.7848f35bf0b6a36ffd8d.png",
+    "static/media/iDunno_logo.png": "/react-portfolio/static/media/iDunno_logo.7ea2fd80886aade7ba74.png",
     "static/media/potfriend.png": "/react-portfolio/static/media/potfriend.309f7d2fd45ae0bc8af3.png",
     "index.html": "/react-portfolio/index.html",
-    "main.35ed8019.css.map": "/react-portfolio/static/css/main.35ed8019.css.map",
-    "main.b1725a8b.js.map": "/react-portfolio/static/js/main.b1725a8b.js.map",
+    "main.1239585d.css.map": "/react-portfolio/static/css/main.1239585d.css.map",
+    "main.ea77459c.js.map": "/react-portfolio/static/js/main.ea77459c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ed8019.css",
-    "static/js/main.b1725a8b.js"
+    "static/css/main.1239585d.css",
+    "static/js/main.ea77459c.js"
   ]
 }
