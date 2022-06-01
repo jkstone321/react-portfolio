@@ -1,4 +1,3 @@
-import BackgroundImage1 from "./images/background1.jpg";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/system";
 import "./MyHeader.css";

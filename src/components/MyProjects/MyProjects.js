@@ -10,29 +10,32 @@ function MyProjects() {
       </Container>
       <Container id="my-project-container">
         <Box
-          id="project-box"
+          className="project-box"
+          id="box1"
           sx={{
             width: 300,
             height: 300,
             backgroundColor: "primary.dark",
           }}
-        ></Box>
+        ><h1 id="project-name">iDunno</h1></Box>
         <Box
-          id="project-box"
+        className="project-box"
+          id="box2"
           sx={{
             width: 300,
             height: 300,
             backgroundColor: "primary.dark",
           }}
-        ></Box>
+        ><h1 id="project-name">Planted</h1></Box>
         <Box
-          id="project-box"
+        className="project-box"
+          id="box3"
           sx={{
             width: 300,
             height: 300,
             backgroundColor: "primary.dark",
           }}
-        ></Box>
+        ><h1 id="project-name">Project 3</h1></Box>
 
         <Container id="overlay-container">
           <Box

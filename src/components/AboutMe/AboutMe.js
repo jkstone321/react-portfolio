@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Picture from "./images/potfriend.png";
+import Picture from "../images/potfriend.png";
 import "./AboutMe.css";
 import { Container } from "@mui/system";
 // const PicOfMe = require("./images/background1.jpg");
